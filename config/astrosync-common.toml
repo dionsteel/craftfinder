@@ -1,0 +1,7 @@
+
+["Common configs for Astro Sync mod"]
+	#The owner of the github repo to check for updates
+	RepoOwner = ""
+	#The name of the github repo to check for updates
+	RepoName = ""
+
