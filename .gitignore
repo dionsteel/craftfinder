@@ -32,3 +32,6 @@ ESM/
 usercache.json
 usernamecache.json
 crash-reports/
+
+config/astrosync-common.toml
+mods/astrosync-1.0.0.jar
