@@ -19,3 +19,15 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+kubejs/probe/cache/
+journeymap/data/
+local/
+logs/
+ntgl/
+saves/
+dynmap/
+disabledmods/
+ESM/
+usercache.json
+usernamecache.json
