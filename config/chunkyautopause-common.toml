@@ -1,0 +1,6 @@
+#Whether to enable automatically pausing Chunky on startup
+enableOnStartup = true
+#How many ticks to wait until resuming Chunky tasks after the last player logs out
+#Range: > 0
+resumeWaitTicks = 600
+

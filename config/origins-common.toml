@@ -1,0 +1,374 @@
+
+[origins]
+
+	[origins."ars_scalaes:arse"]
+		enabled = true
+		"ars_scalaes:source_addict" = true
+		"ars_scalaes:source_addict_2" = true
+		"ars_scalaes:mana_absorber" = true
+
+	[origins."origins:enderian"]
+		enabled = true
+		"origins:throw_ender_pearl" = true
+		"origins:water_vulnerability" = true
+		"origins:pumpkin_hate" = true
+		"origins:extra_reach" = true
+		"origins:ender_particles" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:feline"]
+		enabled = true
+		"origins:fall_immunity" = true
+		"origins:sprint_jump" = true
+		"origins:velvet_paws" = true
+		"origins:nine_lives" = true
+		"origins:weak_arms" = true
+		"origins:scare_creepers" = true
+		"origins:cat_vision" = true
+
+	[origins."origins:elytrian"]
+		enabled = true
+		"origins:elytra" = true
+		"origins:launch_into_air" = true
+		"origins:aerial_combatant" = true
+		"origins:light_armor" = true
+		"origins:claustrophobia" = true
+		"origins:more_kinetic_damage" = true
+
+	[origins."race:feline"]
+		enabled = true
+		"race:feline/altura" = true
+		"race:feline/vision" = true
+		"race:feline/attk_speed" = true
+		"race:feline/pickup_range" = true
+		"race:feline/less_fall_dmg" = true
+		"race:feline/mining" = true
+		"race:feline/move_speed" = true
+		"race:feline/swim_speed" = true
+		"race:feline/less_hearts" = true
+
+	[origins."classes:mage_frost"]
+		enabled = true
+		"classes:mage/magic" = true
+		"classes:mage/frost" = true
+		"classes:melee_debuff" = true
+		"classes:arrow_debuff" = true
+
+	[origins."ars_scalaes:sourcerer"]
+		enabled = true
+		"ars_scalaes:source_loved" = true
+		"ars_scalaes:boost_magic_weak_phys" = true
+		"ars_scalaes:magic_boost" = true
+
+	[origins."ars_scalaes:affinity/abjuration"]
+		enabled = true
+
+	[origins."race:gnomo"]
+		enabled = true
+		"race:gnomo/altura" = true
+		"race:gnomo/exp" = true
+		"race:gnomo/magic_body" = true
+		"race:gnomo/movement_speed" = true
+		"race:gnomo/queda" = true
+		"race:gnomo/vision" = true
+		"race:gnomo/zz_no_muscle" = true
+		"race:gnomo/zz_small_body" = true
+
+	[origins."race:aasimar"]
+		enabled = true
+		"race:aasimar/cast_heal" = true
+		"race:aasimar/divinity" = true
+		"race:aasimar/healing" = true
+		"race:aasimar/holy_dmg" = true
+		"race:aasimar/magic_body" = true
+		"race:aasimar/queda_fly" = true
+		"race:aasimar/wings" = true
+		"race:aasimar/zz_nether" = true
+		"race:aasimar/zz_swim" = true
+
+	[origins."race:anao"]
+		enabled = true
+		"race:anao/altura" = true
+		"race:anao/fortune" = true
+		"race:anao/mining_speed" = true
+		"race:anao/stone" = true
+		"race:anao/casa" = true
+		"race:anao/vision" = true
+		"race:anao/debuff_swim" = true
+		"race:anao/debuff_speed" = true
+
+	[origins."ars_scalaes:starbuncle"]
+		enabled = true
+
+	[origins."ars_scalaes:affinity/water_affinity"]
+		enabled = true
+
+	[origins."origins:phantom"]
+		enabled = true
+		"origins:phantomize" = true
+		"origins:translucent" = true
+		"origins:phasing" = true
+		"origins:invisibility" = true
+		"origins:burn_in_daylight" = true
+		"origins:hunger_over_time" = true
+		"origins:fragile" = true
+		"origins:phantomize_overlay" = true
+
+	[origins."classes:paladino"]
+		enabled = true
+		"classes:paladino/holy_stats" = true
+		"classes:paladino/health" = true
+		"classes:paladino/itens" = true
+		"classes:paladino/shield" = true
+		"classes:arrow_debuff" = true
+
+	[origins."classes:samurai"]
+		enabled = true
+		"classes:samurai/itens" = true
+		"classes:samurai/weapons" = true
+		"classes:samurai/agility" = true
+		"classes:samurai/speed" = true
+		"classes:samurai/weapons_choice" = true
+		"classes:magic_debuff" = true
+
+	[origins."classes:warrior"]
+		enabled = true
+		"classes:warrior/itens" = true
+		"classes:warrior/weapons" = true
+		"classes:warrior/weapons_knolage" = true
+		"classes:magic_debuff" = true
+
+	[origins."ars_scalaes:drygmy"]
+		enabled = true
+
+	[origins."origins:blazeborn"]
+		enabled = true
+		"origins:fire_immunity" = true
+		"origins:nether_spawn" = true
+		"origins:burning_wrath" = true
+		"origins:hotblooded" = true
+		"origins:water_vulnerability" = true
+		"origins:flame_particles" = true
+		"origins:damage_from_snowballs" = true
+		"origins:damage_from_potions" = true
+
+	[origins."classes:mage_ender"]
+		enabled = true
+		"classes:mage/magic" = true
+		"classes:mage/ender" = true
+		"classes:melee_debuff" = true
+		"classes:arrow_debuff" = true
+
+	[origins."origins:avian"]
+		enabled = true
+		"origins:slow_falling" = true
+		"origins:fresh_air" = true
+		"origins:like_air" = true
+		"origins:tailwind" = true
+		"origins:lay_eggs" = true
+		"origins:vegetarian" = true
+
+	[origins."classes:mage_evoker"]
+		enabled = true
+		"classes:mage/magic" = true
+		"classes:mage/evoker" = true
+		"classes:melee_debuff" = true
+		"classes:arrow_debuff" = true
+
+	[origins."classes:healer"]
+		enabled = true
+		"classes:mage/magic" = true
+		"classes:mage/healer" = true
+		"classes:melee_debuff" = true
+		"classes:arrow_debuff" = true
+
+	[origins."ars_scalaes:wixie"]
+		enabled = true
+
+	[origins."race:orc"]
+		enabled = true
+		"race:orc/altura" = true
+		"race:orc/brutal_force" = true
+		"race:orc/health_body" = true
+		"race:orc/pulo" = true
+		"race:orc/resistance" = true
+		"race:orc/zz_fome" = true
+		"race:orc/zz_less_magic" = true
+		"race:orc/zz_swim" = true
+
+	[origins."race:elfo"]
+		enabled = true
+		"race:elfo/altura" = true
+		"race:elfo/bow_dmg" = true
+		"race:elfo/climb" = true
+		"race:elfo/leaves" = true
+		"race:elfo/queda" = true
+		"race:elfo/toggle_climb" = true
+		"race:elfo/vision" = true
+		"race:elfo/debuff_fire" = true
+		"race:elfo/debuff_life" = true
+
+	[origins."classes:mage_blood"]
+		enabled = true
+		"classes:mage/magic" = true
+		"classes:mage/blood" = true
+		"classes:melee_debuff" = true
+		"classes:arrow_debuff" = true
+
+	[origins."classes:mage_fire"]
+		enabled = true
+		"classes:mage/magic" = true
+		"classes:mage/fire" = true
+		"classes:melee_debuff" = true
+		"classes:arrow_debuff" = true
+
+	[origins."origins:human"]
+		enabled = true
+
+	[origins."ars_scalaes:bookwyrm"]
+		enabled = true
+
+	[origins."race:fada"]
+		enabled = true
+		"race:fada/altura" = true
+		"race:fada/fome" = true
+		"race:fada/magic_body" = true
+		"race:fada/movement_speed" = true
+		"race:fada/pickup_range" = true
+		"race:fada/queda_fly" = true
+		"race:fada/vision" = true
+		"race:fada/wings" = true
+		"race:fada/zz_pequeno_tamanho" = true
+
+	[origins."ars_scalaes:affinity/conjuration"]
+		enabled = true
+
+	[origins."ars_scalaes:affinity/fire_affinity"]
+		enabled = true
+
+	[origins."race:gigante"]
+		enabled = true
+		"race:gigante/altura" = true
+		"race:gigante/armor" = true
+		"race:gigante/brutal_force" = true
+		"race:gigante/health_body" = true
+		"race:gigante/movement_speed" = true
+		"race:gigante/pulo" = true
+		"race:gigante/zz_exhaust" = true
+		"race:gigante/zz_ignore_water" = true
+		"race:gigante/zz_low_intelect" = true
+
+	[origins."origins:shulk"]
+		enabled = true
+		"origins:shulker_inventory" = true
+		"origins:natural_armor" = true
+		"origins:strong_arms" = true
+		"origins:strong_arms_break_speed" = true
+		"origins:no_shield" = true
+		"origins:more_exhaustion" = true
+
+	[origins."classes:mage_lightning"]
+		enabled = true
+		"classes:mage/magic" = true
+		"classes:mage/lightning" = true
+		"classes:melee_debuff" = true
+		"classes:arrow_debuff" = true
+
+	[origins."origins:merling"]
+		enabled = true
+		"origins:water_breathing" = true
+		"origins:water_vision" = true
+		"origins:aqua_affinity" = true
+		"origins:swim_speed" = true
+		"origins:like_water" = true
+		"origins:aquatic" = true
+		"origins:conduit_power_on_land" = true
+		"origins:air_from_potions" = true
+
+	[origins."race:fishman"]
+		enabled = true
+		"race:fishman/aqua_resist" = true
+		"race:fishman/aquatic_body" = true
+		"race:fishman/dmg_aquatic" = true
+		"race:fishman/leap" = true
+		"race:fishman/oxy" = true
+		"race:fishman/vision" = true
+		"race:fishman/water_speed" = true
+		"origins:like_water" = true
+		"origins:aqua_affinity" = true
+		"race:fishman/zz_fire" = true
+		"race:fishman/zz_biomes" = true
+
+	[origins."origins:arachnid"]
+		enabled = true
+		"origins:climbing" = true
+		"origins:master_of_webs" = true
+		"origins:carnivore" = true
+		"origins:fragile" = true
+		"origins:arthropod" = true
+
+	[origins."ars_scalaes:affinity/earth_affinity"]
+		enabled = true
+		"ars_scalaes:toggle_phase" = true
+
+	[origins."classes:rogue"]
+		enabled = true
+		"classes:rogue/itens" = true
+		"classes:rogue/weapons" = true
+		"classes:rogue/dark_inv" = true
+		"classes:rogue/silent_steps" = true
+		"classes:rogue/weapons_choice" = true
+		"classes:magic_debuff" = true
+
+	[origins."classes:berserker"]
+		enabled = true
+		"classes:berserker/itens" = true
+		"classes:berserker/weapons" = true
+		"classes:berserker/blood_bath" = true
+		"classes:berserker/fury" = true
+		"classes:berserker/weapons_choice" = true
+		"classes:magic_debuff" = true
+		"classes:arrow_debuff" = true
+
+	[origins."classes:hunter"]
+		enabled = true
+		"classes:hunter/itens" = true
+		"classes:hunter/weapons" = true
+		"classes:hunter/jump" = true
+		"classes:hunter/leaves" = true
+		"classes:hunter/weapons_choice" = true
+		"classes:magic_debuff" = true
+
+	[origins."classes:tank"]
+		enabled = true
+		"classes:tank/ignore_pain" = true
+		"classes:tank/health" = true
+		"classes:tank/itens" = true
+		"classes:tank/shield" = true
+		"classes:magic_debuff" = true
+		"classes:arrow_debuff" = true
+
+	[origins."race:hellborn"]
+		enabled = true
+		"race:hellborn/cast_firebolt" = true
+		"race:hellborn/wings" = true
+		"race:hellborn/fire_imu" = true
+		"race:hellborn/lava_stats" = true
+		"race:hellborn/magic_body" = true
+		"race:hellborn/queda_fly" = true
+		"race:hellborn/vision" = true
+		"race:hellborn/zz_hydro" = true
+		"race:hellborn/zz_life" = true
+		"race:hellborn/zz_swim" = true
+
+	[origins."ars_scalaes:affinity/air_affinity"]
+		enabled = true
+
+	[origins."race:humano"]
+		enabled = true
+		"race:humano/stats" = true
+		"race:humano/luck_explorer" = true
+
+	[origins."ars_scalaes:whirlis"]
+		enabled = true
+
