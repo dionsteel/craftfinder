@@ -53,6 +53,7 @@
 		"classes:mage/frost" = true
 		"classes:melee_debuff" = true
 		"classes:arrow_debuff" = true
+		"classes:mage/magic_ars" = true
 
 	[origins."ars_scalaes:sourcerer"]
 		enabled = true
@@ -158,6 +159,7 @@
 		"classes:mage/ender" = true
 		"classes:melee_debuff" = true
 		"classes:arrow_debuff" = true
+		"classes:mage/magic_ars" = true
 
 	[origins."origins:avian"]
 		enabled = true
@@ -174,6 +176,7 @@
 		"classes:mage/evoker" = true
 		"classes:melee_debuff" = true
 		"classes:arrow_debuff" = true
+		"classes:mage/magic_ars" = true
 
 	[origins."classes:healer"]
 		enabled = true
@@ -181,6 +184,7 @@
 		"classes:mage/healer" = true
 		"classes:melee_debuff" = true
 		"classes:arrow_debuff" = true
+		"classes:mage/magic_ars" = true
 
 	[origins."ars_scalaes:wixie"]
 		enabled = true
@@ -214,6 +218,7 @@
 		"classes:mage/blood" = true
 		"classes:melee_debuff" = true
 		"classes:arrow_debuff" = true
+		"classes:mage/magic_ars" = true
 
 	[origins."classes:mage_fire"]
 		enabled = true
@@ -221,6 +226,7 @@
 		"classes:mage/fire" = true
 		"classes:melee_debuff" = true
 		"classes:arrow_debuff" = true
+		"classes:mage/magic_ars" = true
 
 	[origins."origins:human"]
 		enabled = true
@@ -273,6 +279,7 @@
 		"classes:mage/lightning" = true
 		"classes:melee_debuff" = true
 		"classes:arrow_debuff" = true
+		"classes:mage/magic_ars" = true
 
 	[origins."origins:merling"]
 		enabled = true
@@ -371,4 +378,45 @@
 
 	[origins."ars_scalaes:whirlis"]
 		enabled = true
+
+	[origins."classes:spellblade"]
+		enabled = true
+		"classes:spellblade/magic" = true
+		"classes:spellblade/magic_ars" = true
+		"classes:spellblade/ender" = true
+		"classes:spellblade/weapons" = true
+		"classes:arrow_debuff" = true
+
+	[origins."race:vampire"]
+		enabled = true
+		"race:vampire/blood_magic" = true
+		"race:vampire/feed" = true
+		"race:vampire/healing" = true
+		"race:vampire/stats" = true
+		"race:vampire/vision" = true
+		"race:vampire/imortal" = true
+		"race:vampire/no_food" = true
+		"race:vampire/low_blood" = true
+		"race:vampire/exposed_to_sun" = true
+		"race:vampire/fire_resistence" = true
+		"race:vampire/holy_resistence" = true
+
+	[origins."classes:mage_nature"]
+		enabled = true
+		"classes:mage/magic" = true
+		"classes:mage/magic_ars" = true
+		"classes:mage/nature" = true
+		"classes:melee_debuff" = true
+		"classes:arrow_debuff" = true
+
+	[origins."classes:reaper"]
+		enabled = true
+		"classes:reaper/blood" = true
+		"classes:reaper/lifesteel" = true
+		"classes:reaper/magic" = true
+		"classes:reaper/magic_ars" = true
+		"classes:reaper/weapons_choice" = true
+		"classes:reaper/weapons" = true
+		"classes:arrow_debuff" = true
+		"classes:reaper/holy_debuff" = true
 

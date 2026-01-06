@@ -14,9 +14,9 @@
 		#The value to multiply the damage by if projectile is a critical hit
 		#Range: 1.0 ~ 1.7976931348623157E308
 		criticalDamageMultiplier = 1.5
-		#If true, projectiles will ignore leaves when checking for collision
+		#If true, ammoData will ignore leaves when checking for collision
 		ignoreLeaves = true
-		#If true, projectiles will cause knockback when an entity is hit. By default this is set to true to match the behaviour of Minecraft.
+		#If true, ammoData will cause knockback when an entity is hit. By default this is set to true to match the behaviour of Minecraft.
 		enableKnockback = true
 		#Sets the strength of knockback when shot by a bullet projectile. Knockback must be enabled for this to take effect. If value is equal to zero, knockback will use default minecraft value
 		#Range: 0.0 ~ 1.0
@@ -35,10 +35,12 @@
 			fragileBlockBreakChance = 1.0
 			#If true, allows guns enchanted with Fire Starter to light and spread fires on blocks
 			setFireToBlocks = true
+			#If true, allows projectile explosions to destroy blocks
+			enableBlockRemovalOnExplosions = true
 
 	#Properties relating to network
 	[common.network]
-		#The distance players need to be within to be able to track new projectiles trails. Higher values means you can see projectiles from that start from further away.
+		#The distance players need to be within to be able to track new ammoData trails. Higher values means you can see ammoData from that start from further away.
 		#Range: 1.0 ~ 1.7976931348623157E308
 		projectileTrackingRange = 200.0
 
@@ -53,22 +55,6 @@
 		unsilencedRange = 20.0
 		#Any mobs of defined will not aggro on shooters
 		exemptMobs = []
-
-	#Properties relating to missiles
-	[common.missiles]
-		#If enabled, allows block removal on explosions
-		enableBlockRemoval = false
-		#The max distance which the explosion is effective to
-		#Range: 0.0 ~ 1.7976931348623157E308
-		explosionRadius = 5.0
-
-	#Properties relating to grenades
-	[common.grenades]
-		#If enabled, allows block removal on explosions
-		enableBlockRemoval = false
-		#The max distance which the explosion is effective to
-		#Range: 0.0 ~ 1.7976931348623157E308
-		explosionRadius = 5.0
 
 	#Properties relating to stun grenades
 	[common.stun_grenades]

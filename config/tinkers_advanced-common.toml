@@ -1,4 +1,8 @@
 
+#***注意！
+#***Notice
+#这些配置并不会同步修改语言文件中的描述，当你修改了某个工具/工具属性的性质后如果想要更改描述则需要手动覆盖语言文件！
+#This configure won't affect language display. When a certain modifier or tool is configured, please manually replace the description of the relating language contents.
 #Worldgen
 #世界生成
 [worldgen]
@@ -104,8 +108,8 @@
 	#最大加成（单位为%），默认2000%。
 	#Range: > 0
 	disintegrate_max_bonus = 2000
-	#Bonus decrease each second, 5% by default.
-	#每秒减少的加成（单位为%），默认5%。
+	#Clear bonus after ticks of stopping, 5s by default.
+	#停止挖掘多久后清除加成，默认5秒。
 	#Range: > 0
 	disintegrate_each_decrease = 5
 	#Void Dodging
@@ -114,8 +118,6 @@
 	#每级闪避箭矢的概率，默认0.25。
 	#Range: 0.0 ~ 1.0
 	void_dodging_chance = 0.25
-	#Return to Slime
-	#万物归于黏液
 	#Generator Modules
 	#能量模块类强化
 	#Basic FE/t for each level of Combustion Generator Module, 200 by default
@@ -174,6 +176,66 @@
 	#气动能量模块基础的每tick能量产出，默认50FE/t。注：最终产能会乘以工具压力。
 	#Range: > 0
 	compressed_air_generator_generation = 50
+	#Flux Infuse
+	#通量注入
+	#通量注入抵消耐久消耗需要的能量，默认500FE
+	#FE required for each durability loss, 500FE by default
+	#Range: > 0
+	flux_infuse_consumption = 500
+	#Flux Slash
+	#通量赋能-近战
+	#通量斩击的基础消耗（通量伤害消耗采用此值，剑气消耗为此值的2倍），默认250FE
+	#Basic consumption for Flux Slash, 250FE by default.
+	#Range: > 0
+	flux_slash_consumption = 250
+	#通量斩击的额外通量伤害，默认4
+	#Additional Flux damage for Flux Slash, 4 by default.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	flux_slash_flux_damage = 4.0
+	#通量斩击的剑气基础伤害，默认4
+	#Base damage for the slash from Flux Slash, 4 by default.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	flux_slash_base_slash_damage = 4.0
+	#通量斩击的剑气受锋利词条的伤害加成，默认0.5每级
+	#Sharpness modifier bonus damage for Slash from Flux Slash, 0.5 by default.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	flux_slash_damage_per_sharpness = 0.5
+	#通量斩击的剑气继承自工具伤害的伤害比例，默认0x
+	#Damage bonus from tool's attack damage, 0x by default.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	flux_slash_damage_from_attack_damage = 0.0
+	#通量斩击的挖掘加速（注能模式下为此值2倍），默认100%
+	#Mining boost for Flux Slash, 100% by default.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	flux_slash_dig_speed_bonus = 1.0
+	#Flux Arrow
+	#通量赋能-远程
+	#通量箭矢的基础消耗（箭矢增伤消耗采用此值，产生箭矢消耗为此值的2倍，箭矢爆炸为此值的3倍，复制药水箭消耗为此值的4倍），默认250FE
+	#Basic consumption for Flux Arrow, 250FE by default.
+	#Range: > 0
+	flux_arrow_consumption = 250
+	#通量箭矢的爆炸伤害，默认5
+	#Arrow explosion damage for Flux Arrow, 5 by default.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	flux_arrow_explosion_damage = 5.0
+	#通量箭矢爆炸受到箭矢伤害的增幅，默认0x
+	#Additional damage for the arrow explosion boosted by arrow damage from Flux Arrow, 0x by default.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	flux_arrow_explosion_damage_from_arrow_damage = 0.0
+	#Flux Armor
+	#通量赋能-护甲
+	#通量护甲的基础消耗（减伤消耗采用此值，闪避消耗为此值的10倍），默认2000FE
+	#Basic consumption for Flux Armor, 2000FE by default.
+	#Range: > 0
+	flux_armor_consumption = 2000
+	#通量护甲的伤害减免，默认0.2x
+	#Damage Reduction for Flux Armor, 0.2x by default.
+	#Range: 0.0 ~ 1.0
+	flux_armor_damage_reduction = 0.2
+	#通量护甲的闪避率，默认0.05
+	#Dodge rate for Flux Armor, 0.05 by default.
+	#Range: 0.0 ~ 1.0
+	flux_armor_dodge_rate = 0.05
 
 #Effects
 #状态效果行为
@@ -274,6 +336,12 @@
 	#环流电子调谐剑攻击的能耗，默认250FE。
 	#Range: > 0
 	electron_tuner_consumption = 250
+	#Cancel the movement punishment when using Matter Manipulator,true by default.
+	#取消物质操纵器使用时的移速惩罚，默认是。
+	matter_manipulator_cancel_slowdown = true
+	#Allow Ionized Cannon to gain pierce level form impaling modifier, true by default.
+	#允许等离子射线炮根据穿透词条的等级增加射线穿透数量，默认是。
+	ionize_cannon_pierce_from_impaling = true
 
 #Mekanism Interaction
 #通用机械交互
@@ -281,4 +349,36 @@
 	#Enables fusion reactor exploding when throwing iron ingots into it. true by default.
 	#让你能够通过向朋友的聚变反应堆丢入铁锭/块/粒/砧来增进彼此的感情，默认是。
 	allow_neutronite_crafting = true
+
+#Utilities
+#实用设备
+[utilities]
+	#Transfer speed for Cinderslime Faucet, 1000mB/t by default.
+	#余烬黏液浇筑口的传输速率，默认1000mB/t。
+	#Range: 1 ~ 200000000
+	cinderslime_faucet_speed = 1000
+	#Transfer speed for Iridium Faucet, 2000000000mB/t by default.
+	#铱浇筑口的传输速率，默认2000000000mB/t。
+	#Range: 1 ~ 2000000000
+	iridium_faucet_speed = 2000000000
+	#Cinderslime Casting Speed multiplier with low temp recipes,5x by default.
+	#余烬黏液铸件台处理快速配方时的速度倍率，默认5x。
+	#Range: 0.0 ~ 2.147483647E9
+	cinderslime_casting_increase = 5.0
+	#Cinderslime Casting Speed multiplier with high temp recipes,0.5x by default.
+	#余烬黏液铸件台处理慢速配方时的速度倍率，默认0.5x。
+	#Range: 0.0 ~ 2.147483647E9
+	cinderslime_casting_decrease = 0.5
+	#Recipe time separator for Cinderslime Table containers,100 ticks by default.
+	#余烬黏液铸件台的快慢速分界线，默认100刻(5秒)。
+	#Range: > 1
+	cinderslime_table_separation = 100
+	#Recipe time separator for Cinderslime Basin containers,180 ticks by default.
+	#余烬黏液铸件台的快慢速分界线，默认180刻(9秒)。
+	#Range: > 1
+	cinderslime_basin_separation = 180
+	#Iridium Casting speed modifier, 3x by default.
+	#铱铸件台的速度倍率，默认3x。
+	#Range: 0.0 ~ 2.147483647E9
+	iridium_casting_speed = 3.0
 

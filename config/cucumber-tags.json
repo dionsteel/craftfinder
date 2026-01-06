@@ -16,7 +16,7 @@
   "forge:rubber": "null",
   "forge:ingots/platinum": "ftbmaterials:platinum_ingot",
   "forge:gems/peridot": "null",
-  "forge:ingots/mithril": "null",
+  "forge:ingots/mithril": "irons_spellbooks:mithril_ingot",
   "forge:ingots/lumium": "ftbmaterials:lumium_ingot",
   "forge:ingots/uranium": "ftbmaterials:uranium_ingot",
   "forge:silicon": "refinedstorage:silicon",

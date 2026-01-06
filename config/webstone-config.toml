@@ -1,0 +1,15 @@
+
+["Webstone Configuration"]
+	#Passphrase to allow only authorized users.
+	Passphrase = ""
+	#Port used by the Webstone WebSocket Server. (Default: 4321)
+	WebSocketPort = 4321
+	#Specifies if the WebSocket should use a secure connection.
+	SecureWebSocket = false
+	#Filename of the certificate public key inside ".minecraft/data". (Default: cert.pem)
+	CertificateFilename = "cert.pem"
+	#Filename of the certificate private key inside ".minecraft/data". (Default: key.pem)
+	CertificateKeyFilename = "key.pem"
+	#Passphrase used for the private key.
+	CertificateKeyPass = ""
+

@@ -114,6 +114,7 @@
 			"SURFACING XP Gain  tooltip enabled" = true
 			"SWIM_SPRINTING XP Gain  tooltip enabled" = true
 			"TAMING XP Gain  tooltip enabled" = true
+			"SKILL_DOWN XP Gain  tooltip enabled" = true
 
 		[Client.Tooltip_Visibility.Bonus_Tooltips]
 			"BIOME Bonus  tooltip enabled" = true
